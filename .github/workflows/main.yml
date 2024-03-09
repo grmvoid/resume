@@ -1,0 +1,23 @@
+name: 'Continue Integration'
+
+on:
+  push:
+
+jobs:
+  coverttopdf:
+    runs-on: 'ubuntu-latest'
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_path: 'resume.md'
+          output_dir: 'pdfs'
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          publish_dir: ./pdfs
+          publish_branch: resume
+          keep_files: true
