@@ -1,11 +1,11 @@
 # Curriculum Vitae
 
-This repository contains my curriculum vitae saved in Markdown format. Currently, creating workflow to convert Markdown to PDF.
+This repository contains my curriculum vitae saved in Markdown format.
 
 ## Available formats
 
 ***Markdown*** - [resume.md](resume.md) \
-***PDF*** - WIP
+***PDF*** - [resume.pdf](https://github.com/nuldark/resume/blob/resume/resume.pdf)
 
 ## License
 
