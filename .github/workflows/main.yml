@@ -12,6 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: baileyjm02/markdown-to-pdf@v1
         with:
+          theme: ./styles/styles.css
           input_path: 'resume.md'
           output_dir: 'pdfs'
       - name: Deploy

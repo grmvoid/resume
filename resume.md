@@ -1,33 +1,32 @@
 # Dominik Szamburski
+
 dominikszamburski99@gmail.com | +48 784 764 797 | [GitHub](https://github.com/nuldark) | [LinkedIn](https://www.linkedin.com/in/dominik-szamburski/)
 
-### Summary
 Experienced software engineer specializing in backend development with 4 years of hands-on experience. 
 Proficient in optimizing code to reduce latency, maintaining legacy systems, and debugging code. 
 Actively seeking new challenges and improving his skills.
 
----
-
 ### Work experience
 
-#### Fullstack engineer
-**vobacom** / remote / 2023.05 - present
+#### vobacom
+<section>**Fullstack engineer** remote, 2023.05 - present</section>
+
 - Design and implementation of solutions based on PHP technology.
 - Software development using SCRUM methodology.
 - Develop and maintain applications based on various frameworks such as Drupal, WordPress, Symfony etc.
 
-#### Backend engineer
-**euroelectronics.eu** / remote, 2021.08 / 2023.05
+#### euroelectronics.eu
+<section>**euroelectronics.eu** remote, 2021.08 - 2023.05</section>
+
 - Perform code review, participate in version release process.
 - Integration with external APIs of various couriers, sales platforms.
 - Development and maintenance of application backend in PHP environment.
 
-#### Backend engineer
-**mediart** / Bydgoszcz / 2021.05 - 2021.08
+#### mediart
+<section>**Backend Engineer** Bydgoszcz, 2021.05 - 2021.08</section>
+
 - Create and develop an PHP-based project.
 - Analysis and troubleshooting in a variety of systems.
-
----
 
 ### Skills
 ***Technical*** - ```OOP```, ```REST API```, ```SOAP```, ```Git```, ```CI/CD```, ```Linux```, ```Windows```, ```Unit tests``` <br>
@@ -35,8 +34,6 @@ Actively seeking new challenges and improving his skills.
 ***Databases*** - ```MySQL```, ```Redis```, ```MangoDB``` <br>
 ***DevOps*** - ```AWS```, ```Travis```, ```GitHub Actions```, ```Bash``` <br>
 ***Managment*** - ```Kanban```, ```Scrum```
-
----
 
 ### Projects
 
@@ -50,7 +47,6 @@ It provides a unified object-oriented interface for drivers and also SQL QueryBu
 #### [nuldark/dispatcher](https://github.com/nuldark/dispatcher)
 A library written in javascript implementing the RPC protocol based on RabbitMQ providing asynchronous communication.
 
----
 
 ### Languages
 - Polish (Native language)
