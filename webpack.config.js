@@ -33,6 +33,10 @@ module.exports = {
             loader: 'sass-loader',
             options: {
               sourceMap: true,
+              additionalData: `
+                @use "sass:color";
+                @use "sass:math";
+              `,
             },
           },
         ],
@@ -40,6 +44,9 @@ module.exports = {
     ],
   },
   resolve: {
+    alias: {
+      '@components': path.resolve(__dirname, 'src/components'),
+    },
     modules: [path.join(__dirname, 'node_modules')],
     extensions: ['.js'],
   },
