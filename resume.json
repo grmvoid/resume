@@ -64,13 +64,13 @@
     }
   ],
   "skills": {
-    "languages": [
+    "programming languages": [
       "PHP",
       "JavaScript",
       "TypeScript",
       "HTML",
       "CSS",
-      "SCSS"
+      "SQL"
     ],
     "technologies": [
       "Symfony",
@@ -80,10 +80,17 @@
       "Webpack",
       "GitHub Actions",
       "Docker",
-      "MySQL",
-      "MongoDB",
       "Redis",
       "Git"
+    ],
+    "other": [
+      "API design",
+      "relational databases",
+      "unit testing"
+    ],
+    "languages": [
+      "Polish",
+      "English"
     ]
   }
 }
