@@ -66,6 +66,11 @@ const styles = `
     .position, .category, .name {
         font-weight: bold;
     }
+    
+    .gdpr {
+        position: absolute;
+        bottom: 0;
+    }
 `;
 
 module.exports = styles;
