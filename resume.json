@@ -1,0 +1,89 @@
+{
+  "basics": {
+    "name": "Dominik Szamburski",
+    "email": "dominikszamburski99@gmail.com",
+    "github": "github.com/sxbrsky"
+  },
+  "works": [
+    {
+      "position": "Fullstack Engineer",
+      "name": "ClawRock",
+      "location": "Remote",
+      "date": "2024.09 - Present",
+      "highlights": []
+    },
+    {
+      "position": "Fullstack Engineer",
+      "name": "Vobacom",
+      "location": "Remote",
+      "date": "2023.05 - 2024.09",
+      "highlights": [
+        "Developed web applications using Drupal, WordPress, and Symfony",
+        "Optimized software development processes",
+        "Led bug fixes and feature enhancements on multiple platforms, reducing bug frequency and enhancing overall system stability"
+      ]
+    },
+    {
+      "position": "Backend Engineer",
+      "name": "EuroElectronics",
+      "location": "Remote",
+      "date": "2021.08 - 2023.05",
+      "highlights": [
+        "Assisted in diagnosing and refactoring bottlenecks, which improved system performance and reduced loading times",
+        "Performed code reviews and wrote unit tests, ensuring 100% coverage of critical modules and reducing post-release bugs",
+        "Developed API integrations with multiple couriers and sales platforms, automating shipment tracking and order synchronization",
+        "Maintained and modernized a legacy codebase, refactoring outdated components without impacting current functionality"
+      ]
+    },
+    {
+      "position": "Fullstack Engineer",
+      "name": "Mediart",
+      "location": "Bydgoszcz",
+      "date": "2021.04 - 2021.08",
+      "highlights": [
+        "Resolved issues across various company-managed services",
+        "Developed custom PHP-based web applications, enhancing client web functionalities"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Aether",
+      "url": "github.com/sxbrsky/aether",
+      "description": "Aether is a PHP framework for web based on reusable components."
+    },
+    {
+      "name": "Latest PHP Releases GitHub Action",
+      "url": "github.com/sxbrsky/latest-php-releases-action",
+      "description": "A GitHub Action to fetch a list of active PHP releases from https://php.net."
+    },
+    {
+      "name": "Dispatcher",
+      "url": "github.com/sxbrsky/node-dispatcher",
+      "description": "A library written in javascript implementing the RPC protocol based on RabbitMQ providing asynchronous communication."
+    }
+  ],
+  "skills": {
+    "languages": [
+      "PHP",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "SCSS"
+    ],
+    "technologies": [
+      "Symfony",
+      "Drupal",
+      "Node.js",
+      "React.js",
+      "Webpack",
+      "GitHub Actions",
+      "Docker",
+      "MySQL",
+      "MongoDB",
+      "Redis",
+      "Git"
+    ]
+  }
+}
