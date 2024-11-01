@@ -37,6 +37,10 @@ const styles = `
         line-height: 0;
     }
     
+    .basics .summary {
+        padding-top: 15px;
+    }
+
     .blocks > header {
         margin: 0;
         justify-content: space-between;

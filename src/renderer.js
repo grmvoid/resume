@@ -15,7 +15,8 @@ const renderer =  async (resume) => {
                     <h1 class="name">${resume.basics.name}</h1>
                     <div>
                         <span>${resume.basics.email}</span> |
-                        <span>${resume.basics.github}</span>
+                        <span>${resume.basics.github}</span> |
+                        <span>${resume.basics.linkedin}</span>
                     </div>
                 </header>
                 <section class="works">
