@@ -3,7 +3,8 @@
     "summary": "Experienced Backend Developer specializing in PHP, with a strong background in building and optimizing web applications as well as API integrations. I effectively manage projects using a component-based architecture to ensure scalability and high-quality code. I have experience in maintaining and modernizing existing applications, refactoring code, and implementing best practices, which lead to significant improvements in system performance and stability.",
     "name": "Dominik Szamburski",
     "email": "dominikszamburski99@gmail.com",
-    "github": "github.com/sxbrsky"
+    "github": "github.com/sxbrsky",
+    "linkedin": "linkedin.com/in/dominik-szamburski"
   },
   "works": [
     {
@@ -11,7 +12,10 @@
       "name": "ClawRock",
       "location": "Remote",
       "date": "2024.09 - Present",
-      "highlights": []
+      "highlights": [
+        "Led bug fixes and feature enhancements, reducing bug frequency and enhancing overall system stability",
+        "Developed web application using Magento2"
+      ]
     },
     {
       "position": "Fullstack Engineer",
@@ -51,17 +55,33 @@
     {
       "name": "Aether",
       "url": "github.com/sxbrsky/aether",
-      "description": "Aether is a PHP framework for web based on reusable components."
+      "description": "PHP framework designed to streamline web development through a modular, component-based architecture. By emphasizing reusable components, enables developers to build scalable, maintainable applications efficiently, making it ideal for teams looking to reduce redundancy and accelerate development cycles.",
+      "highlights": [
+        "Enhanced framework support for security and best practices, improving application reliability and resilience",
+        "Ensured full support for PSR standards",
+        "Designed and implemented a reusable component architecture, enabling modular development and reducing redundant code"
+      ]
+    },
+    {
+      "name": "RPC Dispatcher",
+      "url": "github.com/sxbrsky/node-dispatcher",
+      "description": "A JavaScript library that implements the Remote Procedure Call (RPC) protocol over RabbitMQ, enabling efficient, asynchronous communication between distributed services. Built to support scalable distributed architectures, it allows developers to invoke functions remotely in real-time while leveraging RabbitMQ’s reliable message delivery.",
+      "highlights": [
+        "Utilizes RabbitMQ for message queuing, ensuring robust delivery and retry mechanisms",
+        "Provides non-blocking communication, allowing services to process requests and responses asynchronously",
+        "Designed for distributed environments, making it ideal for microservices architectures and systems requiring reliable inter-service communication"
+      ]
     },
     {
       "name": "Latest PHP Releases GitHub Action",
       "url": "github.com/sxbrsky/latest-php-releases-action",
-      "description": "A GitHub Action to fetch a list of active PHP releases from https://php.net."
-    },
-    {
-      "name": "Dispatcher",
-      "url": "github.com/sxbrsky/node-dispatcher",
-      "description": "A library written in javascript implementing the RPC protocol based on RabbitMQ providing asynchronous communication."
+      "description": "GitHub Action that automates the process of retrieving the latest list of active PHP releases directly from php.net. Ideal for PHP projects and CI/CD pipelines, this action keeps your environment up-to-date by ensuring you always have the most recent release information, including supported PHP versions.",
+      "highlights": [
+        "Retrieves the latest active PHP release data, eliminating manual checks for updates",
+        "Easily integrates into GitHub workflows, enabling real-time updates during build and deployment processes",
+        "Designed to work out-of-the-box with minimal setup, making it easy to integrate into existing workflows"
+
+      ]
     }
   ],
   "skills": {
@@ -87,6 +107,8 @@
     "other": [
       "API design",
       "relational databases",
+      "CI/CD pipeline setup",
+      "code optimization",
       "unit testing"
     ],
     "languages": [

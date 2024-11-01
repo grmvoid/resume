@@ -18,6 +18,7 @@ const renderer =  async (resume) => {
                         <span>${resume.basics.github}</span> |
                         <span>${resume.basics.linkedin}</span>
                     </div>
+                    <div class="summary">${resume.basics.summary}</div>
                 </header>
                 <section class="works">
                     <h2>Experience</h2>
@@ -50,6 +51,11 @@ const renderer =  async (resume) => {
                                 <div class="url">${project.url}</div>
                             </header>
                             <p class="description">${project.description}</p>
+                            <ul class="highlights">
+                                ${project.highlights.map(highlight => `
+                                    <li>${highlight}</li>
+                                `).join('')}
+                            </ul>
                         </section>
                     `).join('')}
                 </section>
