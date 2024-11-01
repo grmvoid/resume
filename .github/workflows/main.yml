@@ -10,15 +10,19 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: baileyjm02/markdown-to-pdf@v1
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          theme: ./styles/styles.css
-          input_path: 'resume.md'
-          output_dir: 'pdfs'
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.TOKEN }}
-          publish_dir: ./pdfs
-          publish_branch: resume
-          keep_files: true
+          node-version: '20.x'
+      - run: npm ci
+      - run: node ./src/index.js
+      - name: Commit changes
+        run: |
+          git config --global user.email "dominikszamburski99@gmail.com"
+          git config --global user.name "Dominik Szamburski"
+          git add resume.pdf
+          git commit -m "Update resume.pdf"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
