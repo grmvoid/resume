@@ -1,119 +1,251 @@
 {
-  "basics": {
-    "summary": "Experienced Backend Developer specializing in PHP, with a strong background in building and optimizing web applications as well as API integrations. I effectively manage projects using a component-based architecture to ensure scalability and high-quality code. I have experience in maintaining and modernizing existing applications, refactoring code, and implementing best practices, which lead to significant improvements in system performance and stability.",
-    "name": "Dominik Szamburski",
-    "email": "dominikszamburski99@gmail.com",
-    "github": "github.com/sxbrsky",
-    "linkedin": "linkedin.com/in/dominik-szamburski"
+  "pl_PL": {
+    "basics": {
+      "summary": "Doświadczony programista backendowy specjalizujący się w PHP, z solidnym doświadczeniem w budowaniu i optymalizacji aplikacji webowych oraz integracji API. Skutecznie zarządzam projektami, korzystając z architektury opartej na komponentach, aby zapewnić skalowalność i wysoką jakość kodu. Mam doświadczenie w utrzymywaniu i modernizowaniu istniejących aplikacji, refaktoryzacji kodu oraz wdrażaniu najlepszych praktyk, co prowadzi do znaczącej poprawy wydajności i stabilności systemu.",
+      "name": "Dominik Szamburski",
+      "email": "dominikszamburski99@gmail.com",
+      "github": "github.com/sxbrsky",
+      "linkedin": "linkedin.com/in/dominik-szamburski"
+    },
+    "works": [
+      {
+        "position": "Fullstack Engineer",
+        "name": "ClawRock",
+        "location": "Zdalnie",
+        "date": "2024.09 - Obecnie",
+        "highlights": [
+          "Prowadzenie napraw błędów i ulepszanie funkcji, zmniejszenie częstotliwości występowania błędów i zwiększenie stabilności systemu",
+          "Tworzenie aplikacji webowej przy użyciu Magento2"
+        ]
+      },
+      {
+        "position": "Fullstack Engineer",
+        "name": "Vobacom",
+        "location": "Zdalnie",
+        "date": "2023.05 - 2024.09",
+        "highlights": [
+          "Tworzenie aplikacji webowych przy użyciu Drupal, WordPress i Symfony",
+          "Optymalizacja procesów programistycznych",
+          "Prowadzenie napraw błędów i ulepszanie funkcji na różnych platformach, zmniejszenie częstotliwości błędów i zwiększenie stabilności systemu"
+        ]
+      },
+      {
+        "position": "Backend Engineer",
+        "name": "EuroElectronics",
+        "location": "Zdalnie",
+        "date": "2021.08 - 2023.05",
+        "highlights": [
+          "Pomoc w diagnozowaniu i refaktoryzacji wąskich gardeł, co poprawiło wydajność systemu i skróciło czas ładowania",
+          "Przeprowadzanie przeglądów kodu i pisanie testów jednostkowych, zapewnienie 100% pokrycia kluczowych modułów i redukcja błędów po wdrożeniu",
+          "Tworzenie integracji API z wieloma kurierami i platformami sprzedażowymi, automatyzacja śledzenia przesyłek i synchronizacji zamówień",
+          "Utrzymywanie i modernizowanie starszego kodu, refaktoryzacja przestarzałych komponentów bez wpływu na bieżącą funkcjonalność"
+        ]
+      },
+      {
+        "position": "Fullstack Engineer",
+        "name": "Mediart",
+        "location": "Bydgoszcz",
+        "date": "2021.04 - 2021.08",
+        "highlights": [
+          "Rozwiązywanie problemów w różnych usługach zarządzanych przez firmę",
+          "Tworzenie niestandardowych aplikacji webowych opartych na PHP, wzbogacanie funkcjonalności webowych klientów"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Aether",
+        "url": "github.com/sxbrsky/aether",
+        "description": "Framework PHP zaprojektowany w celu usprawnienia tworzenia aplikacji webowych dzięki modułowej architekturze opartej na komponentach. Kładąc nacisk na wielokrotne wykorzystanie komponentów, umożliwia efektywne tworzenie skalowalnych i łatwych w utrzymaniu aplikacji, co sprawia, że jest idealny dla zespołów pragnących zmniejszyć redundancję i przyspieszyć cykle rozwoju.",
+        "highlights": [
+          "Wzmocnienie wsparcia dla bezpieczeństwa i najlepszych praktyk w frameworku, poprawiając niezawodność i odporność aplikacji",
+          "Zagwarantowanie pełnego wsparcia dla standardów PSR",
+          "Zaprojektowanie i wdrożenie architektury modułowej, co umożliwiło wielokrotne wykorzystanie komponentów i redukcję powtarzalnego kodu"
+        ]
+      },
+      {
+        "name": "RPC Dispatcher",
+        "url": "github.com/sxbrsky/node-dispatcher",
+        "description": "Biblioteka JavaScript implementująca protokół zdalnych wywołań procedur (RPC) za pomocą RabbitMQ, umożliwiająca wydajną, asynchroniczną komunikację między rozproszonymi usługami. Stworzona z myślą o skalowalnych architekturach rozproszonych, pozwala programistom na zdalne wywoływanie funkcji w czasie rzeczywistym przy wykorzystaniu niezawodności przesyłania wiadomości RabbitMQ.",
+        "highlights": [
+          "Wykorzystanie RabbitMQ do kolejkowania wiadomości, zapewnienie niezawodnego dostarczania i mechanizmów ponownego wysyłania",
+          "Zapewnienie nieblokującej komunikacji, pozwalając usługom na asynchroniczne przetwarzanie żądań i odpowiedzi",
+          "Przeznaczona dla środowisk rozproszonych, idealna do architektur mikroserwisowych i systemów wymagających niezawodnej komunikacji między usługami"
+        ]
+      },
+      {
+        "name": "Latest PHP Releases GitHub Action",
+        "url": "github.com/sxbrsky/latest-php-releases-action",
+        "description": "GitHub Action automatyzujący proces pobierania najnowszych aktywnych wersji PHP bezpośrednio z php.net. Idealne rozwiązanie dla projektów PHP i CI/CD, zapewniające aktualność środowiska dzięki regularnym aktualizacjom listy obsługiwanych wersji PHP.",
+        "highlights": [
+          "Pobieranie najnowszych aktywnych wersji PHP, eliminując konieczność ręcznego sprawdzania aktualizacji",
+          "Łatwe integrowanie z workflowami GitHub, umożliwiając aktualizacje w czasie rzeczywistym podczas procesów budowy i wdrażania",
+          "Zaprojektowane do działania bez konfiguracji, co ułatwia integrację z istniejącymi workflowami"
+        ]
+      }
+    ],
+    "skills": {
+      "języki programowania": [
+        "PHP",
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "SQL"
+      ],
+      "technologie": [
+        "Symfony",
+        "Drupal",
+        "Node.js",
+        "React.js",
+        "Webpack",
+        "GitHub Actions",
+        "Docker",
+        "Redis",
+        "Git"
+      ],
+      "inne": [
+        "projektowanie API",
+        "bazy danych relacyjne",
+        "konfiguracja CI/CD",
+        "optymalizacja kodu",
+        "testy jednostkowe"
+      ],
+      "języki": [
+        "j. Polski",
+        "j. Angielski"
+      ]
+    },
+    "translations": {
+      "work": "Doświadczenie zawodowe",
+      "projects": "Projekty",
+      "skills": "Umiejętności",
+      "rodo": "Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO)."
+    }
   },
-  "works": [
-    {
-      "position": "Fullstack Engineer",
-      "name": "ClawRock",
-      "location": "Remote",
-      "date": "2024.09 - Present",
-      "highlights": [
-        "Led bug fixes and feature enhancements, reducing bug frequency and enhancing overall system stability",
-        "Developed web application using Magento2"
-      ]
+  "en_US": {
+    "basics": {
+      "summary": "Experienced Backend Developer specializing in PHP, with a strong background in building and optimizing web applications as well as API integrations. I effectively manage projects using a component-based architecture to ensure scalability and high-quality code. I have experience in maintaining and modernizing existing applications, refactoring code, and implementing best practices, which lead to significant improvements in system performance and stability.",
+      "name": "Dominik Szamburski",
+      "email": "dominikszamburski99@gmail.com",
+      "github": "github.com/sxbrsky",
+      "linkedin": "linkedin.com/in/dominik-szamburski"
     },
-    {
-      "position": "Fullstack Engineer",
-      "name": "Vobacom",
-      "location": "Remote",
-      "date": "2023.05 - 2024.09",
-      "highlights": [
-        "Developed web applications using Drupal, WordPress, and Symfony",
-        "Optimized software development processes",
-        "Led bug fixes and feature enhancements on multiple platforms, reducing bug frequency and enhancing overall system stability"
-      ]
-    },
-    {
-      "position": "Backend Engineer",
-      "name": "EuroElectronics",
-      "location": "Remote",
-      "date": "2021.08 - 2023.05",
-      "highlights": [
-        "Assisted in diagnosing and refactoring bottlenecks, which improved system performance and reduced loading times",
-        "Performed code reviews and wrote unit tests, ensuring 100% coverage of critical modules and reducing post-release bugs",
-        "Developed API integrations with multiple couriers and sales platforms, automating shipment tracking and order synchronization",
-        "Maintained and modernized a legacy codebase, refactoring outdated components without impacting current functionality"
-      ]
-    },
-    {
-      "position": "Fullstack Engineer",
-      "name": "Mediart",
-      "location": "Bydgoszcz",
-      "date": "2021.04 - 2021.08",
-      "highlights": [
-        "Resolved issues across various company-managed services",
-        "Developed custom PHP-based web applications, enhancing client web functionalities"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "Aether",
-      "url": "github.com/sxbrsky/aether",
-      "description": "PHP framework designed to streamline web development through a modular, component-based architecture. By emphasizing reusable components, enables developers to build scalable, maintainable applications efficiently, making it ideal for teams looking to reduce redundancy and accelerate development cycles.",
-      "highlights": [
-        "Enhanced framework support for security and best practices, improving application reliability and resilience",
-        "Ensured full support for PSR standards",
-        "Designed and implemented a reusable component architecture, enabling modular development and reducing redundant code"
-      ]
-    },
-    {
-      "name": "RPC Dispatcher",
-      "url": "github.com/sxbrsky/node-dispatcher",
-      "description": "A JavaScript library that implements the Remote Procedure Call (RPC) protocol over RabbitMQ, enabling efficient, asynchronous communication between distributed services. Built to support scalable distributed architectures, it allows developers to invoke functions remotely in real-time while leveraging RabbitMQ’s reliable message delivery.",
-      "highlights": [
-        "Utilizes RabbitMQ for message queuing, ensuring robust delivery and retry mechanisms",
-        "Provides non-blocking communication, allowing services to process requests and responses asynchronously",
-        "Designed for distributed environments, making it ideal for microservices architectures and systems requiring reliable inter-service communication"
-      ]
-    },
-    {
-      "name": "Latest PHP Releases GitHub Action",
-      "url": "github.com/sxbrsky/latest-php-releases-action",
-      "description": "GitHub Action that automates the process of retrieving the latest list of active PHP releases directly from php.net. Ideal for PHP projects and CI/CD pipelines, this action keeps your environment up-to-date by ensuring you always have the most recent release information, including supported PHP versions.",
-      "highlights": [
-        "Retrieves the latest active PHP release data, eliminating manual checks for updates",
-        "Easily integrates into GitHub workflows, enabling real-time updates during build and deployment processes",
-        "Designed to work out-of-the-box with minimal setup, making it easy to integrate into existing workflows"
+    "works": [
+      {
+        "position": "Fullstack Engineer",
+        "name": "ClawRock",
+        "location": "Remote",
+        "date": "2024.09 - Present",
+        "highlights": [
+          "Led bug fixes and feature enhancements, reducing bug frequency and enhancing overall system stability",
+          "Developed web application using Magento2"
+        ]
+      },
+      {
+        "position": "Fullstack Engineer",
+        "name": "Vobacom",
+        "location": "Remote",
+        "date": "2023.05 - 2024.09",
+        "highlights": [
+          "Developed web applications using Drupal, WordPress, and Symfony",
+          "Optimized software development processes",
+          "Led bug fixes and feature enhancements on multiple platforms, reducing bug frequency and enhancing overall system stability"
+        ]
+      },
+      {
+        "position": "Backend Engineer",
+        "name": "EuroElectronics",
+        "location": "Remote",
+        "date": "2021.08 - 2023.05",
+        "highlights": [
+          "Assisted in diagnosing and refactoring bottlenecks, which improved system performance and reduced loading times",
+          "Performed code reviews and wrote unit tests, ensuring 100% coverage of critical modules and reducing post-release bugs",
+          "Developed API integrations with multiple couriers and sales platforms, automating shipment tracking and order synchronization",
+          "Maintained and modernized a legacy codebase, refactoring outdated components without impacting current functionality"
+        ]
+      },
+      {
+        "position": "Fullstack Engineer",
+        "name": "Mediart",
+        "location": "Bydgoszcz",
+        "date": "2021.04 - 2021.08",
+        "highlights": [
+          "Resolved issues across various company-managed services",
+          "Developed custom PHP-based web applications, enhancing client web functionalities"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Aether",
+        "url": "github.com/sxbrsky/aether",
+        "description": "PHP framework designed to streamline web development through a modular, component-based architecture. By emphasizing reusable components, enables developers to build scalable, maintainable applications efficiently, making it ideal for teams looking to reduce redundancy and accelerate development cycles.",
+        "highlights": [
+          "Enhanced framework support for security and best practices, improving application reliability and resilience",
+          "Ensured full support for PSR standards",
+          "Designed and implemented a reusable component architecture, enabling modular development and reducing redundant code"
+        ]
+      },
+      {
+        "name": "RPC Dispatcher",
+        "url": "github.com/sxbrsky/node-dispatcher",
+        "description": "A JavaScript library that implements the Remote Procedure Call (RPC) protocol over RabbitMQ, enabling efficient, asynchronous communication between distributed services. Built to support scalable distributed architectures, it allows developers to invoke functions remotely in real-time while leveraging RabbitMQ’s reliable message delivery.",
+        "highlights": [
+          "Utilizes RabbitMQ for message queuing, ensuring robust delivery and retry mechanisms",
+          "Provides non-blocking communication, allowing services to process requests and responses asynchronously",
+          "Designed for distributed environments, making it ideal for microservices architectures and systems requiring reliable inter-service communication"
+        ]
+      },
+      {
+        "name": "Latest PHP Releases GitHub Action",
+        "url": "github.com/sxbrsky/latest-php-releases-action",
+        "description": "GitHub Action that automates the process of retrieving the latest list of active PHP releases directly from php.net. Ideal for PHP projects and CI/CD pipelines, this action keeps your environment up-to-date by ensuring you always have the most recent release information, including supported PHP versions.",
+        "highlights": [
+          "Retrieves the latest active PHP release data, eliminating manual checks for updates",
+          "Easily integrates into GitHub workflows, enabling real-time updates during build and deployment processes",
+          "Designed to work out-of-the-box with minimal setup, making it easy to integrate into existing workflows"
 
+        ]
+      }
+    ],
+    "skills": {
+      "programming languages": [
+        "PHP",
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "SQL"
+      ],
+      "technologies": [
+        "Symfony",
+        "Drupal",
+        "Node.js",
+        "React.js",
+        "Webpack",
+        "GitHub Actions",
+        "Docker",
+        "Redis",
+        "Git"
+      ],
+      "other": [
+        "API design",
+        "relational databases",
+        "CI/CD pipeline setup",
+        "code optimization",
+        "unit testing"
+      ],
+      "languages": [
+        "Polish",
+        "English"
       ]
+    },
+    "translations": {
+      "work": "Experience",
+      "projects": "Projects",
+      "skills": "Skills",
+      "rodo": "I agree to the processing of personal data provided in this document for realising the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)."
     }
-  ],
-  "skills": {
-    "programming languages": [
-      "PHP",
-      "JavaScript",
-      "TypeScript",
-      "HTML",
-      "CSS",
-      "SQL"
-    ],
-    "technologies": [
-      "Symfony",
-      "Drupal",
-      "Node.js",
-      "React.js",
-      "Webpack",
-      "GitHub Actions",
-      "Docker",
-      "Redis",
-      "Git"
-    ],
-    "other": [
-      "API design",
-      "relational databases",
-      "CI/CD pipeline setup",
-      "code optimization",
-      "unit testing"
-    ],
-    "languages": [
-      "Polish",
-      "English"
-    ]
   }
 }

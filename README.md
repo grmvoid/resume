@@ -4,8 +4,8 @@ This repository contains my curriculum vitae saved in various format.
 
 ## Available formats
 
-***JSON*** - [resume.md](resume.json) \
-***PDF*** - [resume.pdf](resume.pdf)
+***PDF*** - [pl_PL](output/pl_PL.pdf), [en_US](output/en_US.pdf) \
+***JSON*** - [resume.json](resume.json)
 
 ## License
 

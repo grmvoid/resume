@@ -1,9 +1,9 @@
 const styles = require('./styles');
 
-const renderer =  async (resume) => {
+const renderer =  async (resume, lang) => {
     return `
         <!DOCTYPE html>
-        <html lang="en">
+        <html lang=${lang}>
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,7 +21,7 @@ const renderer =  async (resume) => {
                     <div class="summary">${resume.basics.summary}</div>
                 </header>
                 <section class="works">
-                    <h2>Experience</h2>
+                    <h2>${resume.translations.work}</h2>
                     ${resume.works.map(work => `
                         <section class="blocks">
                             <header>
@@ -43,7 +43,7 @@ const renderer =  async (resume) => {
                     `).join('')}
                 </section>
                 <section class="projects">
-                    <h2>Projects</h2>
+                    <h2>${resume.translations.projects}</h2>
                     ${resume.projects.map(project => `
                         <section class="blocks">
                             <header>
@@ -60,7 +60,7 @@ const renderer =  async (resume) => {
                     `).join('')}
                 </section>
                 <section class="skills">
-                    <h2>Skills</h2>
+                    <h2>${resume.translations.skills}</h2>
                     ${Object.entries(resume.skills).map(([key, skills]) => `
                         <div>
                             <span class="category">${key}:</span>
@@ -69,7 +69,7 @@ const renderer =  async (resume) => {
                     `).join('\n')}
                 </section>
                 <section class="gdpr">
-                    <p>I agree to the processing of personal data provided in this document for realising the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation).</p>
+                    <p>${resume.translations.rodo}</p>
                 </section>
             </body>
         </html>
