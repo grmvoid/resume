@@ -2,9 +2,12 @@ name: 'Continue Integration'
 
 on:
   push:
+    paths:
+      - src/**
+      - resume.json
 
 jobs:
-  coverttopdf:
+  ci:
     runs-on: 'ubuntu-latest'
     permissions:
       contents: write
@@ -20,8 +23,8 @@ jobs:
         run: |
           git config --global user.email "dominikszamburski99@gmail.com"
           git config --global user.name "Dominik Szamburski"
-          git add resume.pdf
-          git commit -m "Update resume.pdf"
+          git add output/
+          git commit -m "Update resume"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git push
         env:
