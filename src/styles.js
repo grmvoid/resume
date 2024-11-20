@@ -18,7 +18,7 @@ const styles = `
     }
 
     body {
-        font-size: 11px;
+        font-size: 12px;
         font-family: Calibri, sans-serif;
     }
     
@@ -72,6 +72,7 @@ const styles = `
     }
     
     .gdpr {
+        font-size: 8px;
         position: absolute;
         bottom: 0;
     }
