@@ -4,7 +4,7 @@
       "summary": "Doświadczony programista backendowy specjalizujący się w PHP, z solidnym doświadczeniem w budowaniu i optymalizacji aplikacji webowych oraz integracji API. Skutecznie zarządzam projektami, korzystając z architektury opartej na komponentach, aby zapewnić skalowalność i wysoką jakość kodu. Mam doświadczenie w utrzymywaniu i modernizowaniu istniejących aplikacji, refaktoryzacji kodu oraz wdrażaniu najlepszych praktyk, co prowadzi do znaczącej poprawy wydajności i stabilności systemu.",
       "name": "Dominik Szamburski",
       "email": "dominikszamburski99@gmail.com",
-      "github": "github.com/sxbrsky",
+      "github": "github.com/grmvoid",
       "linkedin": "linkedin.com/in/dominik-szamburski"
     },
     "works": [
@@ -55,7 +55,7 @@
     "projects": [
       {
         "name": "Aether",
-        "url": "github.com/sxbrsky/aether",
+        "url": "github.com/aetherphp/aether",
         "description": "Framework PHP zaprojektowany w celu usprawnienia tworzenia aplikacji webowych dzięki modułowej architekturze opartej na komponentach. Kładąc nacisk na wielokrotne wykorzystanie komponentów, umożliwia efektywne tworzenie skalowalnych i łatwych w utrzymaniu aplikacji, co sprawia, że jest idealny dla zespołów pragnących zmniejszyć redundancję i przyspieszyć cykle rozwoju.",
         "highlights": [
           "Wzmocnienie wsparcia dla bezpieczeństwa i najlepszych praktyk w frameworku, poprawiając niezawodność i odporność aplikacji",
@@ -65,7 +65,7 @@
       },
       {
         "name": "RPC Dispatcher",
-        "url": "github.com/sxbrsky/node-dispatcher",
+        "url": "github.com/grmvoid/node-dispatcher",
         "description": "Biblioteka JavaScript implementująca protokół zdalnych wywołań procedur (RPC) za pomocą RabbitMQ, umożliwiająca wydajną, asynchroniczną komunikację między rozproszonymi usługami. Stworzona z myślą o skalowalnych architekturach rozproszonych, pozwala programistom na zdalne wywoływanie funkcji w czasie rzeczywistym przy wykorzystaniu niezawodności przesyłania wiadomości RabbitMQ.",
         "highlights": [
           "Wykorzystanie RabbitMQ do kolejkowania wiadomości, zapewnienie niezawodnego dostarczania i mechanizmów ponownego wysyłania",
@@ -75,7 +75,7 @@
       },
       {
         "name": "Latest PHP Releases GitHub Action",
-        "url": "github.com/sxbrsky/latest-php-releases-action",
+        "url": "github.com/grmvoid/latest-php-releases-action",
         "description": "GitHub Action automatyzujący proces pobierania najnowszych aktywnych wersji PHP bezpośrednio z php.net. Idealne rozwiązanie dla projektów PHP i CI/CD, zapewniające aktualność środowiska dzięki regularnym aktualizacjom listy obsługiwanych wersji PHP.",
         "highlights": [
           "Pobieranie najnowszych aktywnych wersji PHP, eliminując konieczność ręcznego sprawdzania aktualizacji",
@@ -105,15 +105,15 @@
         "Git"
       ],
       "inne": [
-        "projektowanie API",
-        "relacyjne bazy danych",
-        "konfiguracja CI/CD",
-        "optymalizacja kodu",
-        "testy jednostkowe"
+        "Projektowanie API",
+        "Relacyjne bazy danych",
+        "CI/CD",
+        "Optymalizacja kodu",
+        "Testy jednostkowe"
       ],
       "języki": [
-        "j. Polski",
-        "j. Angielski"
+        "j. Polski (Natywny)",
+        "j. Angielski (B1)"
       ]
     },
     "translations": {
@@ -128,7 +128,7 @@
       "summary": "Experienced Backend Developer specializing in PHP, with a strong background in building and optimizing web applications as well as API integrations. I effectively manage projects using a component-based architecture to ensure scalability and high-quality code. I have experience in maintaining and modernizing existing applications, refactoring code, and implementing best practices, which lead to significant improvements in system performance and stability.",
       "name": "Dominik Szamburski",
       "email": "dominikszamburski99@gmail.com",
-      "github": "github.com/sxbrsky",
+      "github": "github.com/grmvoid",
       "linkedin": "linkedin.com/in/dominik-szamburski"
     },
     "works": [
@@ -179,7 +179,7 @@
     "projects": [
       {
         "name": "Aether",
-        "url": "github.com/sxbrsky/aether",
+        "url": "github.com/aetherphp/aether",
         "description": "PHP framework designed to streamline web development through a modular, component-based architecture. By emphasizing reusable components, enables developers to build scalable, maintainable applications efficiently, making it ideal for teams looking to reduce redundancy and accelerate development cycles.",
         "highlights": [
           "Enhanced framework support for security and best practices, improving application reliability and resilience",
@@ -189,7 +189,7 @@
       },
       {
         "name": "RPC Dispatcher",
-        "url": "github.com/sxbrsky/node-dispatcher",
+        "url": "github.com/grmvoid/node-dispatcher",
         "description": "A JavaScript library that implements the Remote Procedure Call (RPC) protocol over RabbitMQ, enabling efficient, asynchronous communication between distributed services. Built to support scalable distributed architectures, it allows developers to invoke functions remotely in real-time while leveraging RabbitMQ’s reliable message delivery.",
         "highlights": [
           "Utilizes RabbitMQ for message queuing, ensuring robust delivery and retry mechanisms",
@@ -199,13 +199,12 @@
       },
       {
         "name": "Latest PHP Releases GitHub Action",
-        "url": "github.com/sxbrsky/latest-php-releases-action",
+        "url": "github.com/grmvoid/latest-php-releases-action",
         "description": "GitHub Action that automates the process of retrieving the latest list of active PHP releases directly from php.net. Ideal for PHP projects and CI/CD pipelines, this action keeps your environment up-to-date by ensuring you always have the most recent release information, including supported PHP versions.",
         "highlights": [
           "Retrieves the latest active PHP release data, eliminating manual checks for updates",
           "Easily integrates into GitHub workflows, enabling real-time updates during build and deployment processes",
           "Designed to work out-of-the-box with minimal setup, making it easy to integrate into existing workflows"
-
         ]
       }
     ],
@@ -231,14 +230,14 @@
       ],
       "other": [
         "API design",
-        "relational databases",
-        "CI/CD pipeline setup",
-        "code optimization",
-        "unit testing"
+        "Relational databases",
+        "CI/CD",
+        "Code optimization",
+        "Unit testing"
       ],
       "languages": [
-        "Polish",
-        "English"
+        "Polish (Native)",
+        "English (B1)"
       ]
     },
     "translations": {

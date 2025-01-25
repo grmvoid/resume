@@ -6,11 +6,7 @@ const styles = `
 
     @media print {
         @page {
-            margin: 1in;
-        }
-    
-        @page {
-            margin: 0.4in;
+            margin: 0.2in;
         }
     }
     * {
