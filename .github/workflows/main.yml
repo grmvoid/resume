@@ -2,9 +2,8 @@ name: 'Continue Integration'
 
 on:
   push:
-    paths:
-      - src/**
-      - resume.json
+    paths-ignore:
+      - output/**
 
 jobs:
   ci:
